@@ -1,0 +1,58 @@
+body, html, h1, h2, p, div {
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+	background-color: #F2EDD8;
+}
+
+#title {
+	height: 20vh;
+	width: 95%;
+	background-color: #44B3C2;
+	margin: 10px auto;
+	border: 1px solid #7B8D8E;
+}
+
+#textContainer {
+	height: 40vh;
+	width: 95%;
+	margin: 5% auto;
+}
+
+.text {
+	height: 100%;
+	width: 40%;
+	border: 1px solid #7B8D8E;
+	background-color: #E45641;
+}
+
+#right {
+	margin-left: 59.75%;
+	margin-top: -18.65%;
+}
+
+.button {
+	width: 38vw;
+	height: 10vh;
+	border: 3px solid #7B8D8E;
+	background-color: #F1A94E;
+	border-radius: 5%;
+	-webkit-border-radius: 5%;
+	margin: 2%;
+	text-align: center;
+}
+
+#b2 {
+	margin-left: 58.5%;
+	margin-top: -6.5%;
+}
+
+#b3 {
+	margin: 10% auto;
+}
+
+a {
+	font-size: 300%;
+}
