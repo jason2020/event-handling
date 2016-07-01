@@ -1,18 +1,26 @@
-body, html, h1, h2, p, div {
+body, html, h1, h2, p, div, a {
 	padding: 0;
 	margin: 0;
+	color: #3A3A3C;
+	font-family: 'Raleway', sans-serif;
 }
 
 body, html {
-	background-color: #F2EDD8;
+	background-color: #A9DDD9;
 }
 
 #title {
 	height: 20vh;
 	width: 95%;
-	background-color: #44B3C2;
+	background-color: #3A3A3C;
 	margin: 10px auto;
-	border: 1px solid #7B8D8E;
+	border: 1px solid #3A3A3C;
+	text-align: center;
+	font-size: 200%;
+}
+
+h1 {
+	color: #23B5AF;
 }
 
 #textContainer {
@@ -24,8 +32,11 @@ body, html {
 .text {
 	height: 100%;
 	width: 40%;
-	border: 1px solid #7B8D8E;
-	background-color: #E45641;
+	border: 1px solid #3A3A3C;
+	background-color: #E3493B;
+	border-radius: 1%;
+	-webkit-border-radius: 1%;
+	text-indent: 10%;
 }
 
 #right {
@@ -33,26 +44,47 @@ body, html {
 	margin-top: -18.65%;
 }
 
-.button {
-	width: 38vw;
-	height: 10vh;
-	border: 3px solid #7B8D8E;
-	background-color: #F1A94E;
-	border-radius: 5%;
-	-webkit-border-radius: 5%;
-	margin: 2%;
-	text-align: center;
+#button1 {
+	float: left;
+	margin-left: 3%;
 }
 
-#b2 {
-	margin-left: 58.5%;
+
+#button2 {
+	float: right;
+	margin-left: 53.5%;
 	margin-top: -6.5%;
 }
 
-#b3 {
-	margin: 10% auto;
+#button3 {
+	margin: 15% auto;
 }
 
-a {
-	font-size: 300%;
+.click {
+	width: 30vw;
+	line-height: 10vh;
+	border: 1px solid #3A3A3C;
+	background-color: #EEBA4C;
+	border-radius: 2%;
+	-webkit-border-radius: 2%;
+	margin: 2%;
+	text-align: center;
+	font-size: 250%;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.click:hover {
+	width: 30vw;
+	line-height: 10vh;
+	border: 2px solid #3A3A3C;
+	background-color: #3A3A3C;
+	color: #EEBA4C;
+	border-radius: 2%;
+	-webkit-border-radius: 2%;
+	margin: 2%;
+	text-align: center;
+	font-size: 250%;
+	text-decoration: none;
+	display: inline-block;
 }
